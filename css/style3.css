@@ -1,0 +1,26 @@
+*{
+    
+}
+
+.container{
+    background-image: linear-gradient(to bottom, #F9A628 0%, #F9CB28 60%);
+}
+.info{
+    height: 260px;
+    
+}
+
+button{
+    padding: 19px 39px 18px 39px;
+    color: #fff;
+    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    background-size: 200% auto;
+    margin-bottom: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
