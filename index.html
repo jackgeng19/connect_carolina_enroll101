@@ -18,34 +18,49 @@
 <body>
     <div class="container">
         <div class="navbar">
-            <img src="/img/logo.png" alt="logo" class="logo">
+            <img src="img/logo.png" alt="logo" class="logo">
             <nav>
-                <ul id=""menu-list>
-                    <li><a href=""></a>Home</li>
-                    <li><a href=""></a>Catogory</li>
-                    <li><a href=""></a>About us</li>
-                    <li><a href=""></a>Contact us</li>
+                <ul id="menuList">
+                    <li><a href="https://comp126.com/index.html">Home</a></li>
+                    <li><a href="index2.html">Catogory</a></li>
+                    <li><a href = "mailto: qgeng@unc.edu">Contact us</a></li>
                 </ul>
             </nav>
-            <img src="/img/menu-icon.svg" alt="menu" class="menu" onclick="togglemenu()">
+            <img src="img/menu.png" class="menu" onclick="togglemenu()">
         </div>
-        <div class="row">
-            <div class="col-1">
-                <h2>Enroll 101</h2>
+        <div class="row mt-5">
+            <div class="first col-sm-12 col-lg-6">
+                <h2>Enroll 101<br>UNC</h2>
                 <h3>Make Registration Smarter.</h3>
-                <p></p>
-                <h4>Release 12/01/2022</h4>
-                <button type="button" class="btn btn-primary btn-lg">Explore Now</button>
+                <p><a href="index3.html">New Course</a> Release 12/01/2022</p>
+                <button onclick="window.location.href='index4.html'" type="button" class="btn btn-primary btn-lg">Explore Now</button>
             </div>
-            <div class="col-2">
-                <img src="/img/main_background.png" alt="main picture" class="main">
+            <div class="second col-sm-12 col-lg-6">
+                <img src="img/main_background.png" alt="main picture" class="main-page">
                 <div class="color-box"></div>
             </div>
         </div>
         <div class="social">
-
+            <img src="img/fb.png" alt="facebook">
+            <img src="img/tw.png" alt="twitter">
+            <img src="img/ig.png" alt="ins">
         </div>
     </div>
+    <!-- I learned from online tutorial. -->
+      <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+        function togglemenu(){
+            if(menuList.style.maxHeight == "0px")
+                {
+                    menuList.style.maxHeight = "130px";
+                }
+            else
+                {
+                    menuList.style.maxHeight = "0px";
+                }
+        }
+      </script>
 </body>
 
 </html>
