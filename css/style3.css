@@ -7,7 +7,6 @@
 }
 .info{
     height: 260px;
-    
 }
 
 button{
@@ -23,4 +22,9 @@ button{
     margin-bottom: 10px;
     transition: all 0.5s;
     cursor: pointer;
+}
+
+button:hover, button:focus {
+    background-position: right center;
+    color: black;
 }
