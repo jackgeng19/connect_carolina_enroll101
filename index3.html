@@ -15,71 +15,105 @@
     <link rel="stylesheet" href="css/style3.css">
 </head>
 <body>
-    <div class="container">
-        <div class="info p-5 mb-2 border">
-          <div class="container-info row">
-            <div class="profile col-sm-12 col-lg-8">
-              <div class="profile-name-contain row">
-              <div class="img col-md-6"><img src="/img/professor.png" alt="Professor"></div>
-              <div class="h3 col-md-6">COMP 210</div>
+  <div class="container">
+    <div class="info p-5 mb-2 border">
+      <div class="container-info row">
+        <div class="profile col-sm-12 col-lg-8">
+          <div class="profile-name-contain row">
+          <div class="img col-md-6">
+            <div class="row">
+              <div class="col-4 head-img">
+                <img src="img/professor.png" class="rounded-circle" alt="Professor">
+              </div>
+              <div class="col-8 head-txt">
+                <h1>Comp210</h1>
+                <h6>David Stotts</h6>
+                <p>Professor</p>
+                <a href="">Stotts@cs.unc.edu</a>
               </div>
             </div>
-            <div class="course_specific mt-5 col-sm-12 col-lg-4">课程信息</div>
+            </div>
+          <div class="h3 col-md-6">
+            <div class="circio">
+              <div class="cir-text">
+                80%
+              </div>
+              <div class="bar">
+                
+              </div>
+              <div class="fill">
+                
+              </div>
+            </div>
+          </div>
           </div>
         </div>
-        <div class="statistics">
-            <div class="card border-primary text-primary">
-                <div class="card-header border-primary">Statistics</div>
-                <div class="card-body-container d-flex flex-row bd-highlight text-center row">
-                    <div class="card-body col-sm-12 col-md-6 col-lg-3">
-                    <h5 class="card-title">Average GPA</h5>
-                    <p class="card-text">3.3</p>
-                    </div>
-                    <div class="card-body col-sm-12 col-md-6 col-lg-3">
-                        <h5 class="card-title">Rate of Difficulty</h5>
-                        <p class="card-text">4 / 5</p>
-                    </div>
-                    <div class="card-body col-sm-12 col-md-6 col-lg-3">
-                      <h5 class="card-title">Would Take Again</h5>
-                      <p class="card-text">50%</p>
-                    </div>
-                    <div class="card-body col-sm-12 col-md-6 col-lg-3">
-                      <h5 class="card-title">Hours Spent/Week</h5>
-                      <p class="card-text">15</p>
-                    </div>
+        <h5 class="course_specific mt-4 col-sm-12 col-lg-4 text-center text-bold">Course Info</h5>
+      </div>
+    </div>
+    <div class="statistics">
+        <div class="card text-primary">
+            <div class="card-header border-primary">Statistics</div>
+            <div class="card-body-container d-flex flex-row bd-highlight text-center row">
+                <div class="card-body col-sm-12 col-md-6 col-lg-3 card-top">
+                  <h5 class="card-text">3.3</h5>
+                <p class="card-title">Average GPA</p>
+                
+                </div>
+                <div class="card-body col-sm-12 col-md-6 col-lg-3 card-top">
+                  <h5 class="card-text">4 / 5</h5>
+                    <p class="card-title">Rate of Difficulty</p>
+                    
+                </div>
+                <div class="card-body col-sm-12 col-md-6 col-lg-3">
+                  <h5 class="card-text">50%</h5>
+                  <p class="card-title">Would Take Again</p>
+                  
+                </div>
+                <div class="card-body col-sm-12 col-md-6 col-lg-3">
+                  <h5 class="card-text">15</h5>
+                  <p class="card-title">Hours Spent/Week</p>
+                  
                 </div>
             </div>
         </div>
-        <div class="review mt-4 mb-4">
-            <div class="card">
-                <div class="card-header">
-                  Review
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">User1</h5>
-                  <p class="card-text">We are given the resources to succeed in this class. </p>
-                </div>
-                <div class="card-footer text-muted">
-                  7 hours ago
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">User1</h5>
-                    <p class="card-text">With the autograder and TA help, you can get a 100 on all the coding assnmts, which are worth 30%. </p>
-                  </div>
-                  <div class="card-footer text-muted">
-                    5 days ago
-                  </div>
-                  <div class="card-body">
-                    <h5 class="card-title">User1</h5>
-                    <p class="card-text">We got practice midterms/finals to study from. Has great lecture slides, but could do a better job of connecting the coding goals to the concepts.</p>
-                  </div>
-                  <div class="card-footer text-muted">
-                    19 days ago
-                  </div>
-              </div>
-        </div>
-        <div class="button">
-            <button type="submit">Enroll</button>
-        </div>
     </div>
+    <div class="review mt-4 mb-4">
+        <div class="card">
+            <div class="card-header">
+              Review
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">User1</h5>
+      <h6 class="text-success">Rating: 4.8/5</h6>
+              <p class="card-text">We are given the resources to succeed in this class. </p>
+              <p class="text-muted">
+                7 hours ago
+              </p>
+            </div>
+            
+            <div class="card-body">
+                <h5 class="card-title">User1</h5>
+      <h6 class="text-success">Rating: 4/5</h6>
+                <p class="card-text">With the autograder and TA help, you can get a 100 on all the coding assnmts, which are worth 30%. </p>
+                <p class="text-muted">
+                  5 days ago
+                </p>
+              </div>
+              
+              <div class="card-body">
+                <h5 class="card-title">User1</h5>
+      <h6 class="text-warning">Rating: 3/5</h6>
+                <p class="card-text">We got practice midterms/finals to study from. Has great lecture slides, but could do a better job of connecting the coding goals to the concepts.</p>
+                <p class="text-muted">
+                  19 days ago
+                </p>
+              </div>
+              
+          </div>
+    </div>
+    <div class="button">
+      <button type="Submit">Enroll</button>
+    </div>
+</div>
 </body>

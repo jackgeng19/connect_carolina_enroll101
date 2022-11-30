@@ -1,35 +1,177 @@
-*{
-    
+* {margin: 0;padding: 0}
+
+body {
+	background-image: linear-gradient(to bottom, #F9A628 0%, #F9CB28 60%);
 }
 
-.container{
-}
-.info{
-    height: 280px;
-    background-image: linear-gradient(to bottom, #F9A628 0%, #F9CB28 60%);
-    border-radius: 10px;
+.container {}
+
+.info {
+	padding: 1rem !important;
+	border-radius: 10px;
+	border: none !important;
 }
 
-.profile img{
-    width: 15vh;
+.profile img {
+	width: 100%;
 }
 
-button{
-    padding: 19px 39px 18px 39px;
-    color: #fff;
-    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
-    font-size: 18px;
-    text-align: center;
-    border-radius: 5px;
-    border: none;
-    width: 100%;
-    background-size: 200% auto;
-    margin-bottom: 10px;
-    transition: all 0.5s;
-    cursor: pointer;
+button {
+	padding: 19px 39px 18px 39px;
+	color: #fff;
+	background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+	font-size: 18px;
+	text-align: center;
+	border-radius: 5px;
+	border: none;
+	width: 100%;
+	background-size: 200% auto;
+	margin-bottom: 10px;
+	transition: all 0.5s;
+	cursor: pointer;
 }
 
-button:hover, button:focus {
-    background-position: right center;
-    color: black;
+button:hover,
+button:focus {
+	background-position: right center;
+	color: black;
+}
+
+.row .col-sm-6 {
+	width: 50%;
+}
+
+.statistics .row {
+	--bs-gutter-x: 0rem;
+}
+
+.statistics,
+.review {
+	border-radius: 25px;
+	overflow: hidden;
+}
+
+.statistics .border-primary {
+	border-color: #F9CB28 !important;
+}
+
+.statistics .card-header,
+.review .card-header {
+	font-weight: bold;
+	color: #4B3E94;
+	background-color: #fff;
+}
+
+.statistics .card-title {
+	margin-bottom: 0;
+}
+
+.statistics .card-text {
+	color: #58A7CD;
+	font-weight: bold;
+}
+
+.statistics .card-title {
+	font-size: 0.8rem;
+	color: #6c757d !important
+}
+
+.statistics .card-top {
+	padding-bottom: 0;
+}
+
+.review .card-body {
+	margin: 15px;
+	background-color: #F4F4F4;
+	border-radius: 20px;
+}
+
+.review .card-body .card-text {
+	margin-bottom: 0.5rem;
+	font-size: 0.9rem;
+}
+
+.review .card-body .text-muted {
+	margin-bottom: 0;
+}
+
+.review .card-body .card-title {
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.profile-name-contain .col-md-6 {}
+
+.circio {
+	position: relative;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-color: #FDF8E9;
+	margin-left: 50%;
+}
+
+.circio:after {
+	position: absolute;
+	top: 8px;
+	left: 8px;
+	display: block;
+	content: " ";
+	border-radius: 50%;
+	background-color: #F9AB28;
+	width: 64px;
+	height: 64px;
+}
+
+.circio .bar {
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	border-radius: 50%;
+	border: 8px solid #5CB85C;
+	box-sizing: border-box;
+	clip: rect(0, 40px, 80px, 0rem);
+	transform: rotate(180deg)
+}
+
+.circio .fill {
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	border-radius: 50%;
+	border: 8px solid #5CB85C;
+	box-sizing: border-box;
+	clip: rect(0, 80px, 80px, 40px);
+	transform: rotate(144deg)
+}
+
+.cir-text {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	z-index: 99;
+}
+
+.cir-text {
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+.head-img{
+	padding: 0.6rem 0;
+}
+.head-txt h5{
+	font-size: 1.2rem;
+	margin-bottom: 0.3rem;
+	font-weight: bold;
+}
+.head-txt p{
+	font-size: 0.8rem;
+}
+.head-txt a{
+	text-decoration: none;
+	font-size: 0.9rem;
 }
