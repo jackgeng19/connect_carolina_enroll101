@@ -20,3 +20,8 @@ h5 {
 .card-text {
     font-family: 'Cabin', sans-serif;
 }
+
+.card-img-top {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
