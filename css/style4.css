@@ -1,0 +1,22 @@
+.card {
+    border-radius: 20px;
+
+}
+
+.btn {
+    border-radius: 100px;
+    padding: 1rem;
+}
+
+h1 {
+    padding: 1rem;
+    font-family: 'Francois One', sans-serif;
+}
+
+h5 {
+    font-family: 'Francois One', sans-serif;
+}
+
+.card-text {
+    font-family: 'Cabin', sans-serif;
+}
