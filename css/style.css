@@ -4,156 +4,156 @@
     font-family: 'Cabin', sans-serif;
 }
 
-@media only screen and (min-width:600px){
-    .container{
-        width: 100%;
-        min-height: 100vh;
-        padding-left: 8%;
-        padding-right: 8%;
-        box-sizing: border-box;
-        overflow: hidden;
-    }
-
-    .navbar{
-        width: 100%;
-        display: flex;
-        align-items: center;
-    }
-
-    .logo{
-        width: 50px;
-        cursor: pointer;
-        margin:30px 0;
-    }
-
-    .menu{
-        width: 25px;
-        cursor: pointer;
-        display: none;
-    }
-
-    nav{
-        flex: 1;
-        text-align: right;
-    }
-
-    nav ul li{
-        list-style: none;
-        display: inline-block;
-        margin-right: 30px;
-    }
-
-    nav ul li a{
-        text-decoration: none;
-        color: black;
-        font-size: 19px;
-    }
-
-    nav ul li a:hover{
-        color: #a1c4fd
-    }
-
-    .row{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .first{
-        flex-basis: 40%;
-        position: relative;
-        margin-top: 10rem;
-    }
-
-    .first h1{
-        font-size: 40px;
-        font-weight: 100;
-        font-family: 'Francois One', sans-serif;
-    }
-
-    .first h3{
-        font-size: 35px;
-        color: chocolate;
-        margin: 20px 0 10px;
-        margin-top: 50px;
-    }
-
-    .first p{
-        font-size: 17px;
-        color: rgba(0, 0, 0, 0.502);
-        font-weight: 100;
-        margin: 30px 0;
-        font-size: 20px;
-    }
-
-    .first a{
-        color: rgba(0, 0, 0, 0.502);
-    }
-
-    button{
-        padding: 12px 10px;
-        color: #fff;
-        background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
-        font-size: 18px;
-        text-align: center;
-        border-radius: 5px;
-        border: 0;
-        width: 190px;
-        background-size: 200% auto;
-        transition: all 0.5s !important;
-        cursor: pointer;
-    }
-
-    button:hover, button:focus {
-        background-position: right center;
-        color: black !important;
-    }
-
-    .first::after{
-        content: '';
-        width: 10px;
-        height: 58%;
-        background: linear-gradient(to bottom, #F9A628 0%, #F9CB28 60%);
-        position:absolute;
-        left: -40px;
-        top: 8px;
-    }
-
-    .second{
-        position: relative;
-        flex-basis: 60%;
-        display: flex;
-        align-items: center;
-    }
-
-    .main-page{
-        width: 90%;
-    }
-
-    .color-box{
-        position:absolute;
-        right: 0;
-        top: 0;
-        border-radius: 20px 0 0 20px;
-        height: 100%;
-        width: 80%;
-        background: linear-gradient(to bottom, #F9A628 0%, #F9CB28 60%);
-        z-index: -1;
-        transform: translateX(150px);
-    }
-
-    .social img{
-        height: 14px;
-        margin: 20px;
-        cursor:pointer;
-    }
-
-    .social{
-        text-align: center;
-        margin-top: 10rem;
-        margin-bottom: 1rem;
-    }
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
 }
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 50px;
+    cursor: pointer;
+    margin:30px 0;
+}
+
+.menu{
+    width: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
+
+nav ul li a:hover{
+    color: #a1c4fd
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first{
+    flex-basis: 40%;
+    position: relative;
+    margin-top: 10rem;
+}
+
+.first h1{
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'Francois One', sans-serif;
+}
+
+.first h3{
+    font-size: 35px;
+    color: chocolate;
+    margin: 20px 0 10px;
+    margin-top: 50px;
+}
+
+.first p{
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.502);
+    font-weight: 100;
+    margin: 30px 0;
+    font-size: 20px;
+}
+
+.first a{
+    color: rgba(0, 0, 0, 0.502);
+}
+
+button{
+    padding: 12px 10px;
+    color: #fff;
+    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    border: 0;
+    width: 190px;
+    background-size: 200% auto;
+    transition: all 0.5s !important;
+    cursor: pointer;
+}
+
+button:hover, button:focus {
+    background-position: right center;
+    color: black !important;
+}
+
+.first::after{
+    content: '';
+    width: 10px;
+    height: 58%;
+    background: linear-gradient(to bottom, #F9A628 0%, #F9CB28 60%);
+    position:absolute;
+    left: -40px;
+    top: 8px;
+}
+
+.second{
+    position: relative;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.main-page{
+    width: 90%;
+}
+
+.color-box{
+    position:absolute;
+    right: 0;
+    top: 0;
+    border-radius: 20px 0 0 20px;
+    height: 100%;
+    width: 80%;
+    background: linear-gradient(to bottom, #F9A628 0%, #F9CB28 60%);
+    z-index: -1;
+    transform: translateX(150px);
+}
+
+.social img{
+    height: 14px;
+    margin: 20px;
+    cursor:pointer;
+}
+
+.social{
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+}
+
+@media only screen and (max-width:600px){
 
     nav ul{
         width: 100%;
@@ -215,3 +215,4 @@
     .first h3{
         font-size: 20px;
     }
+}
