@@ -1,13 +1,36 @@
 body{
     font-size:20px;
     line-height: 2;
-    color:blue;
-    background-color: antiquewhite;
+    
 }
 
-.category1{
+.subject{
     width:50%;
     float:left;
-    padding:15;
+    padding:15px;
     position:relative;
+    background-color: skyblue;
+    border-radius: 2%;
+}
+.subject .title{
+float:left;
+    letter-spacing:1px;
+    color:slategrey;
+
+}
+.subject .line{
+    position:absolute;
+    bottom:6px;
+    border-bottom:1px;
+    margin-left:.6rem;
+    margin-right:.6rem;
+}
+.number{
+    font-size: 16px;
+    color:rosybrown
+}
+
+.btn {
+    border-radius: 100px;
+    padding: 1rem;
 }
