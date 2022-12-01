@@ -11,8 +11,27 @@ body{
     max-width:80px;
     height:55px;
 }
+form.box input[type=text] {
+    padding: 8px;
+    font-size: 15px;
+    border: 2px solid black;
+    float: left;
+    width: 75%;
+    background: #f1f1f1;
+  }
 
-
+form.box button {
+    float: left;
+    width: 20%;
+    padding: 8px;
+    background: #2196F3;
+    font-size: 15px;
+    border: 2px solid black;
+    border-left: none;     
+}
+form.example button:hover {
+    background: #0b7dda;
+}
 .subject{
     width:50%;
     float:left;
