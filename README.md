@@ -1,10 +1,10 @@
 # Enroll 101
 <!-- Hi there. -->
 <h2>Credits</h2>
-Qicheng Geng is responsible for
-Sam Pomper
-Xinchen Yang
-Tianrui Ye
+Qicheng Geng is responsible for Welcome page, COMP 210 course page.<br>
+Sam Pomper is responsible for COMP course list page.<br>
+Xinchen Yang is responsible for category page.<br>
+Tianrui Ye is responsible for course category page, COMP 210 course page.
 
 <h2>Inspiration</h2>
 As a university student, I want to quickly access a list of the searched courses and easily save items to a shopping
