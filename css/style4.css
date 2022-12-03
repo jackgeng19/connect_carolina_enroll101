@@ -1,6 +1,7 @@
 .card {
     border-radius: 20px;
     height: 410px;
+    border: black;
 }
 
 .btn {
@@ -9,7 +10,7 @@
 }
 
 h1 {
-    padding: 1rem;
+
     font-family: 'Francois One', sans-serif;
 }
 
@@ -25,4 +26,30 @@ h5 {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     height: 30vh;
+}
+
+button {
+    color: #fff;
+    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    width: 80px;
+    background-size: 200% auto;
+    transition: all 0.5s !important;
+    font-family: 'Cabin', sans-serif;
+}
+
+
+button:hover, button:focus {
+    background-position: right center;
+    color: black !important;
+}
+
+.navbar-light {
+    background-color: ;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #F9A628 0%, #F9CB28 60%);
 }
