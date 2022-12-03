@@ -1,6 +1,6 @@
 # Enroll 101
 <!-- Hi there. -->
-<h2>Credits<h2>
+<h2>Credits</h2>
 Qicheng Geng is responsible for
 Sam Pomper
 Xinchen Yang
