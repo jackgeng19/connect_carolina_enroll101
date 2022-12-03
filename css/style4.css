@@ -1,6 +1,6 @@
 .card {
     border-radius: 20px;
-    height: 410px;
+    height: 420px;
     border: black;
 }
 
@@ -46,10 +46,8 @@ button:hover, button:focus {
     color: black !important;
 }
 
-.navbar-light {
-    background-color: ;
-}
 
 body {
     background-image: linear-gradient(to bottom, #F9A628 0%, #F9CB28 60%);
 }
+
