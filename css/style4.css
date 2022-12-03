@@ -1,3 +1,7 @@
+body {
+    background-image: linear-gradient(to bottom, #F9A628 0%, #F9CB28 60%);
+}
+
 .card {
     border-radius: 20px;
     height: 420px;
@@ -28,13 +32,13 @@ h5 {
     height: 30vh;
 }
 
-button {
-    color: #fff;
+.btn {
     background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
     font-size: 18px;
     text-align: center;
-    border-radius: 5px;
-    width: 80px;
+    border-radius: 30px;
+    width: 90px;
+    height: 60px;
     background-size: 200% auto;
     transition: all 0.5s !important;
     font-family: 'Cabin', sans-serif;
@@ -46,8 +50,12 @@ button:hover, button:focus {
     color: black !important;
 }
 
-
-body {
-    background-image: linear-gradient(to bottom, #F9A628 0%, #F9CB28 60%);
+.button {
+    height: 60px;
+    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+    border-radius: 10px;
+    width: 70px;
+    background-size: 200% auto;
+    transition: all 0.5s !important;
 }
 
