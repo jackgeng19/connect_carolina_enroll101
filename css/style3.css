@@ -154,6 +154,7 @@ button:focus {
 	flex-direction: column;
 	align-items: center;
 	z-index: 99;
+	transform: scale(0.7);
 }
 
 .cir-text {
