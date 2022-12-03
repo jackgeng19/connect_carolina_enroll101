@@ -16,23 +16,22 @@
 </head>
 
 <body>
-    <header>
-    <div class="m-2">
+    <div class="container pb-3">
+        <div class="navbar">
+            <img src="img/logo.png" alt="logo" class="logo">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="index5.html">Catogory</a></li>
+                    <li><a href = "mailto: qgeng@unc.edu">Contact us</a></li>
+                </ul>
+            </nav>
+            <img src="img/menu.png" class="menu" onclick="togglemenu()">
+        </div>
 
         <div class="col-md-12 text-center">
             <h1>Category List</h1>
         </div>
-     
-    
-        
-    </div>
-    </header>
-
-
-
-
-    <div class="container">
-
         
         <div class="card-body-container d-flex flex-row bd-highlight text-center row">
             <button onclick="window.location.href='index4.html'" type="Submit" class="card-body col-sm-12 col-md-6 col-lg-4 card-top m-2">
@@ -111,33 +110,25 @@
 
 
 
-    <div class="row">
-        <nav class="navbar navbar-light">
-            <div class="container-fluid">
 
-                <div class="home">
-                    <button onclick="window.location.href='index.html'" type="button" class="btn btn-outline-primary"><i class="fa-solid fa-house"></i></button>
-                </div>
-
-                <div class="cart">
-                    <button onclick="window.location.href='index4.html'" type="button" class="btn btn-outline-primary"><i
-                            class="fa-solid fa-cart-shopping"></i></button>
-                </div>
-
-                <div class="category">
-                    <button onclick="window.location.href='index5.html'" type="button" class="btn btn-outline-primary"><i class="fa-solid fa-book"></i></button>
-                </div>
-
-                <div class="profile">
-                    <button onclick="window.location.href='index3.html'" type="button" class="btn btn-outline-primary"><i class="fa-solid fa-user"></i></button>
-                </div>
-
-            </div>
-        </nav>
-    </div>
 
 
 </div>
+
+<script>
+    var menuList = document.getElementById("menuList");
+    menuList.style.maxHeight = "0px";
+    function togglemenu(){
+        if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "130px";
+            }
+        else
+            {
+                menuList.style.maxHeight = "0px";
+            }
+    }
+  </script>
 
 
 </body>
