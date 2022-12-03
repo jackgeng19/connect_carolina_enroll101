@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Francois+One&display=swap');
     </style>
     <script src="https://kit.fontawesome.com/fb641a1906.js" crossorigin="anonymous"></script>
 
@@ -16,7 +16,18 @@
 </head>
 <body>
   <div class="container">
-    <div class="info p-5 mb-2 border">
+    <div class="navbar">
+      <img src="img/logo.png" alt="logo" class="logo">
+      <nav>
+          <ul id="menuList">
+              <li><a href="https://comp126.com/index.html">Home</a></li>
+              <li><a href="index2.html">Catogory</a></li>
+              <li><a href = "mailto: qgeng@unc.edu">Contact us</a></li>
+          </ul>
+      </nav>
+      <img src="img/menu.png" class="menu" onclick="togglemenu()">
+  </div>
+    <div class="info p-3 mb-2 border">
       <div class="container-info row">
         <div class="profile col-sm-12 col-lg-8">
           <div class="profile-name-contain row">
@@ -25,15 +36,17 @@
               <div class="col-4 head-img">
                 <img src="img/professor.png" class="rounded-circle" alt="Professor">
               </div>
-              <div class="col-8 head-txt">
+              <div class="col-8 head-txt hero">
                 <h1>Comp210</h1>
-                <h6>David Stotts</h6>
+                <h6>Paul Stotts</h6>
                 <p>Professor</p>
                 <a href="">Stotts@cs.unc.edu</a>
               </div>
             </div>
             </div>
           <div class="h3 col-md-6">
+            <div class="container-cir">
+              <p class="text-center">Available Seats:</p>
             <div class="circio">
               <div class="cir-text">
                 140/160
@@ -45,10 +58,11 @@
                 
               </div>
             </div>
+            </div>
           </div>
           </div>
         </div>
-        <h5 class="course_specific mt-4 col-sm-12 col-lg-4 text-center text-bold">Course Info</h5>
+        <h5 class="course_specific mt-4 col-sm-12 col-lg-4">This course will teach you how to organize the data used in computer programs so that manipulation of that data can be done efficiently on large problems and large data instances. </h5>
       </div>
     </div>
     <div class="statistics">
@@ -81,11 +95,11 @@
     <div class="review mt-4 mb-4">
         <div class="card">
             <div class="card-header">
-              Review
+              Review (...)
             </div>
             <div class="card-body">
-              <h5 class="card-title">User1</h5>
-      <h6 class="text-success">Rating: 4.8/5</h6>
+              <h5 class="card-title">User 1</h5>
+              <h6 class="text-success">Rating: 4.8/5</h6>
               <p class="card-text">We are given the resources to succeed in this class. </p>
               <p class="text-muted">
                 7 hours ago
@@ -93,8 +107,8 @@
             </div>
             
             <div class="card-body">
-                <h5 class="card-title">User1</h5>
-      <h6 class="text-success">Rating: 4/5</h6>
+                <h5 class="card-title">User 2</h5>
+                <h6 class="text-success">Rating: 4.0/5.0</h6>
                 <p class="card-text">With the autograder and TA help, you can get a 100 on all the coding assnmts, which are worth 30%. </p>
                 <p class="text-muted">
                   5 days ago
@@ -102,8 +116,8 @@
               </div>
               
               <div class="card-body">
-                <h5 class="card-title">User1</h5>
-      <h6 class="text-warning">Rating: 3/5</h6>
+                <h5 class="card-title">User 3</h5>
+      <h6 class="text-warning">Rating: 3.4/5.0</h6>
                 <p class="card-text">We got practice midterms/finals to study from. Has great lecture slides, but could do a better job of connecting the coding goals to the concepts.</p>
                 <p class="text-muted">
                   19 days ago
@@ -112,8 +126,23 @@
               
           </div>
     </div>
-    <div class="button">
+    <div class="button mb-5">
       <button type="Submit">Enroll</button>
     </div>
 </div>
+ <!-- I learned from online tutorial. -->
+ <script>
+  var menuList = document.getElementById("menuList");
+  menuList.style.maxHeight = "0px";
+  function togglemenu(){
+      if(menuList.style.maxHeight == "0px")
+          {
+              menuList.style.maxHeight = "130px";
+          }
+      else
+          {
+              menuList.style.maxHeight = "0px";
+          }
+  }
+</script>
 </body>
