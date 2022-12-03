@@ -1,10 +1,10 @@
 # Enroll 101
 <!-- Hi there. -->
 <h2>Credits</h2>
-Qicheng Geng is responsible for Welcome page, COMP 210 course page.<br>
-Sam Pomper is responsible for COMP course list page.<br>
-Xinchen Yang is responsible for category page.<br>
-Tianrui Ye is responsible for course category page, COMP 210 course page.
+Qicheng Geng is responsible for Welcome page, COMP 210 course page. Index.html style.css<br>
+Sam Pomper is responsible for COMP course list page. Index4.html, style4.css<br>
+Xinchen Yang is responsible for category page. Index5.html, style5.css<br>
+Tianrui Ye is responsible for course information page, COMP 210 course page. Index3.html, style3.css
 
 <h2>Inspiration</h2>
 As a university student, I want to quickly access a list of the searched courses and easily save items to a shopping
