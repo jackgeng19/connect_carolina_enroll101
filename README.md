@@ -17,4 +17,4 @@ Enroll 101 saves your time when you want to add the course to shopping cart. Whe
 Team work? Try to set the tone of the website consistent?
 
 <h2>Accomplishments that we're proud of</h2>
-Created a platform to connect students with one another with features like app notifications on your tab, leave conversation, reveal identity, well-designed chat box. In addition, we created logos and designs to add some dynamism to our front page.
+
