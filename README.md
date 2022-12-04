@@ -14,10 +14,3 @@ cart, so that I can return to see different course schedule and consider enrolli
 
 <h2>What does it do</h2>
 Enroll 101 saves your time when you want to add the course to shopping cart compared to other registration sites (Connect Carolina). Our site is optimized for phone and desktop. Whether you're new to campus or a senior about to graduate, Enroll 101 provides an environment for students navigate through different subjects during the course registration. 
-
-<h2>Challenges we ran into</h2>
-Team work? Try to set the tone of the website consistent?
-
-<h2>Accomplishments that we're proud of</h2>
-Working together to form a detalied website that streamlines university course registration.
-
