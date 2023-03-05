@@ -1,13 +1,12 @@
-
-<h1>Enroll 101</h1>
-  
-<a href="https://jackgeng19.github.io/enroll101.github.io/">https://jackgeng19.github.io/enroll101.github.io/</a>
-<h2>Inspiration</h2>
-<p>As a university student, I want to quickly access a list of the searched courses and easily save items to a shopping cart, so that I can return to see different course schedule and consider enrolling the suitable one later. Also, when searching courses, students benefit from the reviews and feedback of prior students' on their prospective classes. Our website is designed to streamline and improve course registration for university students. 😎</p>
-<h2>What does it do?</h2>
-<p>Enroll 101 saves your time when you want to add the course to shopping cart compared to other registration sites (Connect Carolina). Our site is optimized for phone and desktop. Whether you're new to campus or a senior about to graduate, Enroll 101 provides an environment for students navigate through different subjects during the course registration. 🚀</p>
+<h1>Enroll 101🎓</h1>
+<a href="https://jackgeng19.github.io/connect_carolina_enroll101/">Check out our website!</a>
+<p> Enroll 101 is a web application designed to streamline and improve course registration for university students.</p>
 <h2>Credits</h2>
-<p>Jack Geng is responsible for Welcome page, COMP 210 course page. Index.html style.css 🌟<br>
-Sam Pomper is responsible for COMP course list page. Index4.html, style4.css 🌟<br>
-Xinchen Yang is responsible for category page. Index5.html, style5.css 🌟<br>
-Tianrui Ye is responsible for course information page, COMP 210 course page. Index3.html, style3.css 🌟</p>
+<p>👨‍💻 Jack Geng is responsible for the Welcome page, COMP 210 course page, index.html, and style.css.</p>
+<p>👨‍💻 Sam Pomper is responsible for the COMP course list page, index4.html, and style4.css.</p>
+<p>👨‍💻 Xinchen Yang is responsible for the category page, index5.html, and style5.css.</p>
+<p>👨‍💻 Tianrui Ye is responsible for the course information page, COMP 210 course page, index3.html, and style3.css.</p>
+<h2>Inspiration</h2>
+<p>🤔 As a university student, I want to quickly access a list of searched courses and easily save items to a shopping cart so that I can return to see different course schedules and consider enrolling in the suitable one later. Additionally, when searching for courses, students benefit from the reviews and feedback of prior students on their prospective classes.</p>
+<h2>What does it do?</h2>
+<p>🚀 Enroll 101 saves you time when adding courses to your shopping cart compared to other registration sites like Connect Carolina. Our site is optimized for phone and desktop use. Whether you're new to campus or a senior about to graduate, Enroll 101 provides an environment for students to navigate through different subjects during course registration.</p>
