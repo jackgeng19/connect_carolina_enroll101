@@ -1,5 +1,5 @@
 <h1>Enroll 101🎓</h1>
-<a href="https://jackgeng19.github.io/connect_carolina_enroll101/">Check out our website!</a>
+<h2><a href="https://jackgeng19.github.io/connect_carolina_enroll101/">Check out our website!</a></h2>
 <p> Enroll 101 is a web application designed to streamline and improve course registration for university students.</p>
 <h2>Credits</h2>
 <p>👨‍💻 Jack Geng is responsible for the Welcome page, COMP 210 course page, index.html, and style.css.</p>
